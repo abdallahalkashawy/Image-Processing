@@ -1,0 +1,18 @@
+
+  .column {
+    float: inline-start;
+    padding: 5px;
+  }
+  
+  .row::before {
+    content: "Abdallah Ehab 49-15636 T-15";
+    color:blue;
+    text-align: center;
+    clear:both;
+    position:relative;
+    display: table;
+    top: 50%;
+    left: 50%;
+
+  }
+  
